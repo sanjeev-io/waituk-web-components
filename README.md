@@ -17,4 +17,5 @@
 ### Accordion
 
 [Accordion Live Demo](https://waituk.github.io/waituk-web-components/app/accordion/)
+
 [Accordion Repository](https://github.com/waituk/waituk-web-components/tree/master/app/accordion)
