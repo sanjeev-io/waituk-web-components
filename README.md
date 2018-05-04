@@ -2,9 +2,13 @@
 
 ---
 
-### List of web components that I am currently working on.
+### Files and Folder Structure
 
-## Web components
+_All individual repos have their own GitHub page for live demo and can be accessed directly by following the link below for Live Demo_
+
+_All individual repos are inside app folder and can also be accessed directly by following the links below. Inside each component folder, there are index and dist folder. The index file is the html file for the web component and the dist folder contains styles file, and js files where and when required._
+
+## Web Components List
 
 ---
 
