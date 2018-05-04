@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono:400,700");
+/* Custom Resets and Base */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Base */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Fira Mono', monospace;
+}
+
+.wrapper {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* Typography */
+
+h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.svg-inline--fa {
+    margin-right: 0.275rem;
+}
+
+/* Grid - Row and Columns */
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    background-color: #444a55;
+    width: 25vh;
+    height: 14vh;
+    color: #a9a9a9;
+    cursor: pointer;
+    -webkit-transition: background-color 0.500s;
+    transition: background-color 0.500s;
+    border: 1px solid rgba(32, 32, 32, 0.08);
+}
+
+.col-2 {
+    min-width: 50%;
+}
+
+.col:last-child {
+    background: rgba(68, 74, 85, 0.98);
+}
+
+.col:last-child:hover {
+    background-color: rgba(68, 74, 85, 0.95);
+    -webkit-transition: background-color 0.500s;
+    transition: background-color 0.500s;
+}
+
+.col:hover {
+    background-color: rgba(68, 74, 85, 0.95);
+    -webkit-transition: background-color 0.500s;
+    transition: background-color 0.500s;
+}
+
+/* Utility Classes */
+
+.text-white {
+    color: #fff;
+}
+
+/* Heading Area */
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    padding: 0 0.875rem;
+    height: 6vh;
+}
+
+.top-header {
+    color: #fff;
+    font-size: 0.675rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.left-header,
+.center-header,
+.right-header {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 0.675rem;
+}
+
+.center-header {
+    text-align: center;
+}
+
+.right-header {
+    text-align: right;
+}
+
+/* Buttons */
+
+.buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 7vh;
+}
+
+button {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background: rgba(68, 74, 85, 0.98);
+    color: #a9a9a9;
+    border: 0;
+    cursor: pointer;
+    -webkit-transition: background-color 0.500s;
+    transition: background-color 0.500s;
+    font-size: 1rem;
+    letter-spacing: 0.475rem;
+}
+
+button:hover {
+    background: rgba(68, 74, 85, 0.95);
+}
+
+button:first-child {
+    border-right: 1px solid rgba(32, 32, 32, 0.22);
+    padding-right: 2.2rem;
+}
+
+/* Form and Input Fields */
+
+.input-field {
+    background-color: #21252b;
+    overflow-x: hidden;
+    text-align: right;
+    padding-right: 5%;
+}
+
+input {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 700;
+    font-size: 8vh;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    height: 17vh;
+    max-width: 95%;
+    text-align: right;
+}
+
+input:hover {
+    color: #a9a9a9;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
