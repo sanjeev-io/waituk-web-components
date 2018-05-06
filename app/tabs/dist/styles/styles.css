@@ -1,0 +1,91 @@
+/* Custom Resets and Base */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Base */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Fira Mono', monospace;
+}
+
+.wrapper {
+    overflow: auto;
+    margin: 0 auto;
+}
+
+/* Used only for Web Component Demo Wrapping */
+.demoWrapper {
+    width: 70%;
+    margin-top: 10%;
+}
+
+/* Tabs Component */
+.tabComponent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2rem 0;
+}
+
+.tabComponent__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 20%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 1.2rem;
+    margin-bottom: 1.6rem;
+    -webkit-box-direction: normal;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: vertical;
+    -ms-flex-positive: 1;
+    text-align: left;
+}
+
+.tabComponent__item label {
+    padding: 0.675rem;
+    margin-right: 1.2rem;
+    margin-bottom: 1.6rem;
+    background-color: #f8f8f8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tabComponent__item [type='radio'] ~ .tabComponent__panel {
+    visibility: collapse;
+}
+
+.tabComponent__item [type='radio']:checked ~ .tabComponent__panel {
+    visibility: visible;
+}
+
+.tabComponent__item [type='radio']:checked + label {
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: linear 0.3s;
+    transition: linear 0.3s;
+}
+
+.tabComponent__item > [type='checkbox'],
+.tabComponent__item [type='radio'] {
+    display: none;
+}
+
+.tabComponent__panel__content {
+    position: absolute;
+    left: 15%;
+    max-width: 600px;
+}

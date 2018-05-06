@@ -8,10 +8,42 @@
     <link rel="stylesheet" href="./dist/styles/styles.css">
   </head>
   <body>
-  <div class="wrapper">
+  <div class="wrapper demoWrapper">
     <main>
-      <h3>Tabs Project</h3>
+      <h3>Tab Component with input & label</h3>
+      <!-- <div class="tabComponent"> -->
+      <div class="tabComponent">
+        <div class="tabComponent__item">
+          <input type="radio" name="tabInput" id="01" checked>
+          <label class="tabButton" for="01">Home Decor</label>
+          <div class="tabComponent__panel">
+            <div class="tabComponent__panel__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae eveniet laboriosam ratione quis ducimus, rem, fuga qui autem optio officiis voluptates dolores impedit modi! Quibusdam neque, explicabo quis totam?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabComponent__item">
+          <input type="radio" name="tabInput" id="02">
+          <label class="tabButton" for="02">Furniture</label>
+          <div class="tabComponent__panel">
+            <div class="tabComponent__panel__content">
+            <p>Bring the best out of master chef in you.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabComponent__item">
+          <input type="radio" name="tabInput" id="03">
+          <label class="tabButton" for="03">Kitchen</label>
+          <div class="tabComponent__panel">
+            <div class="tabComponent__panel__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-</div>
+  </div>
   </body>
 </html>
