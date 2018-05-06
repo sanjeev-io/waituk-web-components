@@ -18,8 +18,8 @@ _All individual repos are inside app folder and can also be accessed directly by
 
 [Calculator Repository](https://github.com/waituk/waituk-web-components/tree/master/app/calculator)
 
-### Accordion
+### Tabs
 
-[Accordion Live Demo](https://waituk.github.io/waituk-web-components/app/accordion/)
+[Tabs Live Demo](https://waituk.github.io/waituk-web-components/app/tabs/)
 
-[Accordion Repository](https://github.com/waituk/waituk-web-components/tree/master/app/accordion)
+[Tabs Repository](https://github.com/waituk/waituk-web-components/tree/master/app/tabs)
