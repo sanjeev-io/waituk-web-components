@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700');
+
 /* Custom Resets and Base */
 * {
     -webkit-box-sizing: border-box;
@@ -56,7 +58,7 @@ body {
 
 .tabComponent__item label {
     padding: 0.675rem;
-    margin-right: 1.2rem;
+    border: 1px dashed #000;
     margin-bottom: 1.6rem;
     background-color: #f8f8f8;
     color: #000;
@@ -74,6 +76,8 @@ body {
 
 .tabComponent__item [type='radio']:checked + label {
     background-color: #000;
+    -webkit-box-shadow: -4px 0 21px -4px rgba(0, 0, 0, 0.47);
+    box-shadow: -4px 0 21px -4px rgba(0, 0, 0, 0.47);
     color: #fff;
     -webkit-transition: linear 0.3s;
     transition: linear 0.3s;
@@ -88,4 +92,8 @@ body {
     position: absolute;
     left: 15%;
     max-width: 600px;
+}
+
+.tabComponent__panel__content p {
+    line-height: 1.6rem;
 }
