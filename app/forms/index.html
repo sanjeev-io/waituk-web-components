@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Web Component by Waituk</title>
+    <script src="dist/styles/fonts/fontawesome/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="./dist/styles/styles.css">
+  </head>
+  <body>
+  <div class="wrapper demoWrapper">
+    <main>
+      <!-- Form Component Starts -->
+      <h1>HTML5 Form Components</h1>
+      <!-- Signup Form -->
+      <div class="formContainer signUpForm">
+          <h3>Signup Form</h3>
+        <form class="formComponent" action="index.html" method="post">
+
+            <label for="uname">First Name</label>
+            <input type="text" name="uname" id="uname" placeholder="First Name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name">
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email Address">
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+
+            <label for="password">Select Password</label>
+            <input type="password" name="password" id="password" placeholder="*******">
+
+            <label for="c-password">Confirm Password</label>
+            <input type="password" name="c-password" id="c-password" placeholder="*******">
+
+            <input type="button" onclick="alert('Thank You Bov Academy!!!')" value="Sign Up">
+
+        </form>
+      </div>
+
+      <!-- Login Form -->
+      <div class="formContainer logInForm">
+        <h3>Login Form</h3>
+        <form class="formComponent" action="index.html" method="post">
+          <label for="uname">Username</label>
+          <input type="text" name="uname" placeholder="Username">
+
+          <label for="password">Password</label>
+          <input type="password" name="upassword" placeholder="*******">
+
+          <div class="short">
+            <input type="checkbox" name="rememberme" id="rememberme">
+            <label for="rememberme"> Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+
+          <input type="button" onclick="alert('Thank You Bov Academy!!!')" value="Sign In">
+
+        </form>
+      </div>
+    </main>
+  </div>
+  </body>
+</html>

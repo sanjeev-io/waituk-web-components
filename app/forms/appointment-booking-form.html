@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking Form</title>
+    <script src="dist/styles/fonts/fontawesome/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="./dist/styles/styles.css">
+  </head>
+  <body>
+  <div class="wrapper demoWrapper">
+    <main>
+      <!-- Form Component Starts -->
+      <h1>HTML5 Form Components</h1>
+      <!-- Appointment Booking Form -->
+      <div class="formContainer signUpForm">
+          <h3>Signup Form</h3>
+        <form class="formComponent" action="index.html" method="post">
+
+            <label for="uname">Contact Name</label>
+            <input type="text" name="uname" id="uname" placeholder="First Name">
+
+            <label for="contact-number">Contact Number</label>
+            <input type="tel" name="lname" id="lname" placeholder="+44">
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email Address">
+
+            <label for="date">Date Input</label>
+            <input type="date" id="date" name="app-date" pattern="\d*" placeholder="MM / DD / YY" type="tel" required>
+
+            <label for="time">Time Input</label>
+            <input type="time" id="time" name="appt-time" placeholder="11.00 AM" required>
+
+            <label for="time-zone">Time Zone</label>
+            <input type="time" id="time-zone" name="appt-time-zone" placeholder="+5:45 GMT"required>
+
+            <label for="message">Your Message</label>
+            <textarea name="appt-message" id="app-message" ></textarea>
+
+            <input type="button" name="booking-btn" onclick="alert('Thank You Bov Academy!!!')" value="Book Now">
+
+        </form>
+      </div>
+    </main>
+  </div>
+  </body>
+</html>

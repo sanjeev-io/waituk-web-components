@@ -60,7 +60,7 @@ body {
     padding: 0.675rem;
     border: 1px dashed #000;
     margin-bottom: 1.6rem;
-    background-color: #f8f8f8;
+    background-color: #F8F8F8;
     color: #000;
     text-align: center;
     text-decoration: none;
@@ -78,7 +78,7 @@ body {
     background-color: #000;
     -webkit-box-shadow: -4px 0 21px -4px rgba(0, 0, 0, 0.47);
     box-shadow: -4px 0 21px -4px rgba(0, 0, 0, 0.47);
-    color: #fff;
+    color: #FFF;
     -webkit-transition: linear 0.3s;
     transition: linear 0.3s;
 }
@@ -88,12 +88,12 @@ body {
     display: none;
 }
 
-.tabComponent__panel__content {
+.tabComponent__content {
     position: absolute;
     left: 15%;
-    max-width: 600px;
+    max-width: 800px;
 }
 
-.tabComponent__panel__content p {
+.tabComponent__content p {
     line-height: 1.6rem;
 }

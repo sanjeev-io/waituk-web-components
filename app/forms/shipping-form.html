@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Form</title>
+    <script src="dist/styles/fonts/fontawesome/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="./dist/styles/styles.css">
+  </head>
+  <body>
+  <div class="wrapper demoWrapper">
+    <main>
+      <!-- Form Component Starts -->
+      <h1>HTML5 Form Components</h1>
+      <!-- Shipping Address -->
+      <div class="formContainer  logInForm">
+        <h3>Shipping Address</h3>
+        <form class="formComponent" action="index.html" method="post">
+
+        <label for="s-fname">First Name</label>
+        <input type="text" name="fname" id="s-fname" placeholder="First Name">
+
+        <label for="s-lname">Last Name</label>
+        <input type="text" name="lname" id="s-lname" placeholder="Last Name">
+
+        <label for="s-address">Address</label>
+        <input type="text" name="uaddress" id="s-address" placeholder="Address">
+
+        <label for="s-city">City</label>
+        <input type="text" name="ucity" id="s-city" placeholder="City">
+
+        <label for="s-country">Country</label>
+        <input type="text" name="ucountry" id="s-country" placeholder="Country">
+
+        </form>
+      </div>
+
+      <!-- Billing Address -->
+      <div class="formContainer logInForm">
+        <h3>Billing Address</h3>
+        <form class="formComponent" action="index.html" method="post">
+
+        <label for="b-name">First Name</label>
+        <input type="text" name="fname" id="b-name" placeholder="First Name">
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name">
+
+        <label for="b-address">Address</label>
+        <input type="text" name="b-address" id="b-address" placeholder="Address">
+
+        <label for="b-city">City</label>
+        <input type="text" name="b-city" id="b-city" placeholder="City">
+
+        <label for="b-country">Country</label>
+        <input type="text" name="b-country" id="b-country" placeholder="Country">
+
+        <div class="wide">
+          <input type="checkbox" name="rememberme" id="rememberme">
+        <label for="rememberme"> Shipping should match the Billing Address.</label>
+        </div>
+
+        </form>
+      </div>
+
+      <!-- Payment Form -->
+      <div class="formContainer logInForm">
+        <h3>Payment Details</h3>
+        <form class="formComponent" action="index.html" method="post">
+
+        <input class="cc-field" type="text" name="fname" id="b-name" placeholder="Cardholders Name">
+
+        <input class="cc-field" maxlength="19" name="cc-number" pattern="\d*" placeholder="Card Number" type="tel" />
+
+        <input class="cc-field" maxlength="5" name="credit-expires" pattern="\d*" placeholder="MM / YY" type="tel" />
+
+        <input class="cc-field" maxlength="3" name="credit-cvc" pattern="\d*" placeholder="CVC" type="tel" />
+
+        <div class="wide">
+          <input type="checkbox" name="rememberme" id="rememberme">
+          <label for="rememberme">I agree to Terms & Conditions.</label>
+        </div>
+
+        <input type="button" onclick="alert('Thank You Bov Academy!!!')" value="Submit Address">
+
+        </form>
+      </div>
+
+    </main>
+  </div>
+  </body>
+</html>
