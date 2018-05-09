@@ -23,3 +23,21 @@ _All individual repos are inside app folder and can also be accessed directly by
 [Tabs Live Demo](https://waituk.github.io/waituk-web-components/app/tabs/)
 
 [Tabs Repository](https://github.com/waituk/waituk-web-components/tree/master/app/tabs)
+
+### Forms
+
+[Form - Default Demo](https://waituk.github.io/waituk-web-components/app/forms/)
+
+[Signup Form - Tabbed](https://waituk.github.io/waituk-web-components/app/forms/signup-tabbed.html)
+
+[Shipping Form](https://waituk.github.io/waituk-web-components/app/forms/shipping-form.html)
+
+[Appointment Booking Form](https://waituk.github.io/waituk-web-components/app/forms/appointment-booking-form.html)
+
+[Form Default Repository](https://github.com/waituk/waituk-web-components/tree/master/app/forms)
+
+### Product Listing
+
+[Product Page Demo](https://waituk.github.io/waituk-web-components/app/product-list/)
+
+[Product Page Repository](https://github.com/waituk/waituk-web-components/tree/master/app/product-list)
